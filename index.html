@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="sass/swiper-bundle.min.css" class="css" />
     <link rel="stylesheet" href="sass/style.css" />
   </head>
   <body>
@@ -39,8 +40,7 @@
             <span class="user__name">Nathan</span>
           </a>
           <!-- /.user -->
-          <button class="menu-button navbar-top__menu-button
-          ">
+          <button class="menu-button navbar-top__menu-button">
             <span class="menu-button__line"></span>
             <span class="menu-button__line"></span>
             <span class="menu-button__line"></span>
@@ -90,9 +90,7 @@
           <li class="breadcrumb-list__item">
             <a href="#" class="breadcrumb-list__link">Flash Offers</a>
           </li>
-          <li class="breadcrumb-list__item">
-            Grand Hilton Hotel
-          </li>
+          <li class="breadcrumb-list__item">Grand Hilton Hotel</li>
         </ul>
       </div>
       <!-- /.container -->
@@ -104,18 +102,21 @@
           <div class="hotel-info__text">
             <div class="hotel-wrapper">
               <div class="stars">
-                <img src="/img/star.svg" alt="star">
-                <img src="/img/star.svg" alt="star">
-                <img src="/img/star.svg" alt="star">
-                <img src="/img/star.svg" alt="star">
-                <img src="/img/star.svg" alt="star">
+                <img src="/img/star.svg" alt="star" />
+                <img src="/img/star.svg" alt="star" />
+                <img src="/img/star.svg" alt="star" />
+                <img src="/img/star.svg" alt="star" />
+                <img src="/img/star.svg" alt="star" />
               </div>
               <!-- /.stars -->
               <h1 class="hotel-name hotel-info__name">Grand Hilton Hotel</h1>
               <span class="offer hotel-info__offer">Flash Offer</span>
             </div>
             <!-- /.hotel-wrapper -->
-            <p class="hotel-description hotel-info__description">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</p>
+            <p class="hotel-description hotel-info__description">
+              Half-Board/ All Inclusive + Complimentary Activities + Child Stays
+              Free
+            </p>
           </div>
           <!-- /.hotel-info__text -->
           <div class="rating hotel-info__rating">
@@ -124,9 +125,37 @@
           </div>
         </div>
         <!-- /.hotel-info -->
+        <div class="slider">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="/img/slide.jpg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/slide.jpg" alt="slide">
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/slide.jpg" alt="slide">
+              </div>
+            </div>
+            <!-- If we need pagination
+            <div class="swiper-pagination"></div> -->
+
+            <!-- If we need navigation buttons -->
+            <button class="slider-button slider-button--prev"></button>
+            <button class="slider-button slider-button--next"></button>
+          </div>
+          <!-- /. swiper -->
+        </div>
+        <!-- /.slider -->
       </div>
       <!-- /.container -->
     </section>
     <!-- /.hotel -->
+    <script src="/js/swiper-bundle.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
