@@ -807,6 +807,12 @@ template {
   .container {
     max-width: 960px;
   }
+  .slider {
+    width: 600px;
+  }
+  .swiper-slide__image {
+    height: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -833,6 +839,12 @@ template {
   }
   .navbar .search__input {
     width: 340px;
+  }
+  .hotel-grid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
