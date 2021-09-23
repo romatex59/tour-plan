@@ -16,6 +16,11 @@ const swiper = new Swiper('.swiper', {
 
   effect: "coverflow",
 
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+
   // And if we need scrollbar
   // scrollbar: {
   //   el: '.swiper-scrollbar',
