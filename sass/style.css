@@ -865,7 +865,7 @@ template {
      object-fit: cover;
 }
 
-.packages-grid__item1 {
+.packages-grid__topitem {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -877,7 +877,7 @@ template {
   background-color: #0A223D;
 }
 
-.packages-grid__item2, .packages-grid__item3, .packages-grid__item4, .packages-grid__item5 {
+.packages-grid__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
