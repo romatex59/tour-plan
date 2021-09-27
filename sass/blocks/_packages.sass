@@ -7,7 +7,6 @@
     line-height: 45px
     text-align: center
     text-transform: uppercase
-    margin-top: 40px
     margin-bottom: 65px
   &-grid
     display: grid
@@ -34,7 +33,7 @@
       left: 0
       top: 26px
     &__topimage
-      width: 366px
+      min-width: 50%
       object-fit: cover
     &__image
       width: 350px
@@ -61,6 +60,7 @@
       flex-direction: column
       justify-content: flex-start
       margin: 46px 21px 30px 44px
+      
     &__smallbooking
       display: flex
       flex-direction: column
@@ -96,6 +96,10 @@
       color: $light
       margin: 0 0 23px 0
     &__text
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
       margin-bottom: 11px
     &__description
       color: $light

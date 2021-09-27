@@ -13,7 +13,18 @@
     &-card
       width: 230px
       height: 230px
-
+  .packages
+    &-grid
+      &__toptext
+        font-size: 13px
+  .grid
+    &-booking
+      &__oldprice
+        margin-top: 27px
+  .form
+    &__name,
+    &__number
+      min-width: 222px
 
 @media (max-width: 992px)
   .container,
@@ -54,12 +65,26 @@
       max-width: 700px
       &__item
         max-width: 580px
+  .packages
+    &-title
+      font-size: 30px
+      margin-top: 0
+      margin-bottom: 45px
+    &-grid
+      grid-template: 1fr 1fr 1fr / 1fr 1fr 
+      &__topitem
+        grid-column: span 2
+      &__toptext
+        font-size: 14px
   .activities
     &-list
       flex-wrap: wrap
     &-card
       width: 48%
       margin-bottom: 20px
+  .footer
+    &-grid
+      
 
 @media (max-width: 768px)
   .container
@@ -105,6 +130,7 @@
   .slider
     height: 350px
   .hotel
+    padding-bottom: 40px
     &-right
       flex-direction: column
       min-height: 450px
@@ -112,14 +138,30 @@
     width: 100%
   .map
     width: 100%
-
+  .packages
+    &-title
+      margin-top: 0
+      margin-bottom: 25px
+      font-size: 18px
+    &-grid
+      &__topbooking
+        margin: 28px 13px 18px 26px
+      &__toptext
+        font-size: 13px
+        
+  .grid
+    &-booking
+      &__description
+        font-size: 11px
+      &__button
+        padding: 7px 15px
   .newsletter
     &-wrapper
       max-width: 576px
       width: 92%
       flex-direction: column
       align-items: flex-start
-
+  
   .reviews
     &-title
       font-size: 18px
@@ -151,6 +193,23 @@
   .hotel
     &-slider
       margin-bottom: 20px
+  .packages
+    &-grid
+      &__topbooking
+        margin: 14px 6px 9px 13px
+      &__toptext
+        font-size: 11px
+        margin-bottom: 17px
+  .grid
+    &-booking
+      &__oldprice
+        text-align: center
+      &__description
+        font-size: 10px 
+      &__price
+        flex-direction: column
+      &__button
+        margin-top: 10px
   .newsletter
     padding: 76px 0 83px 0
     &__title
