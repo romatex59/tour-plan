@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper(".swiper", {
   // Optional parameters
   // direction: 'vertical',
   loop: true,
@@ -10,11 +10,9 @@ const swiper = new Swiper('.swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.slider-button--next',
-    prevEl: '.slider-button--prev',
+    nextEl: ".slider-button--next",
+    prevEl: ".slider-button--prev",
   },
-
-
 
   keyboard: {
     enabled: true,
@@ -27,7 +25,7 @@ const swiper = new Swiper('.swiper', {
   // },
 });
 
-const reswiper = new Swiper('.reviews-swiper', {
+const reswiper = new Swiper(".reviews-swiper", {
   // Optional parameters
   // direction: 'vertical',
   //loop: true,
@@ -39,12 +37,19 @@ const reswiper = new Swiper('.reviews-swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.reviews-button--next',
-    prevEl: '.reviews-button--prev',
+    nextEl: ".reviews-button--next",
+    prevEl: ".reviews-button--prev",
   },
 
   // And if we need scrollbar
   // scrollbar: {
   //   el: '.swiper-scrollbar',
   // },
+});
+
+var menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", function () {
+  document
+    .querySelector(".navbar-bottom")
+    .classList.toggle("navbar-bottom--visible");
 });
