@@ -83,9 +83,35 @@
       width: 48%
       margin-bottom: 20px
   .footer
+    &-logo
+      grid-row: 1
+      grid-column: 1
+      margin-top: 0
     &-grid
-      
-
+      grid-template: repeat(5, minmax(40px,min-content)) / repeat(3, 1fr)
+      padding-top: 73px
+      &__categories
+        grid-row: 2/3
+        grid-column: 1
+      &__additional
+        grid-row: 2
+        grid-column: 2
+      &__legal
+        grid-row: 2
+        grid-column: 3
+      &__social
+        align-items: center
+        grid-row: 1
+        grid-column: 2/4
+      &__contacts
+        grid-row: 3
+        grid-column: 1/4
+      &__form
+        grid-row: 4
+        grid-column: 1/4
+      &__bottom
+        grid-row: 5
+        grid-column: 1/4
 @media (max-width: 768px)
   .container
     max-width: 576px
