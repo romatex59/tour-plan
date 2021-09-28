@@ -93,12 +93,15 @@
       &__categories
         grid-row: 2/3
         grid-column: 1
+        margin-top: 40px
       &__additional
         grid-row: 2
         grid-column: 2
+        margin-top: 40px
       &__legal
         grid-row: 2
         grid-column: 3
+        margin-top: 40px
       &__social
         align-items: center
         grid-row: 1
@@ -106,12 +109,25 @@
       &__contacts
         grid-row: 3
         grid-column: 1/4
+        margin-top: 60px
       &__form
         grid-row: 4
         grid-column: 1/4
+        margin-top: 60px
       &__bottom
         grid-row: 5
         grid-column: 1/4
+        justify-content: flex-start
+  .form
+    &__inputs
+      max-width: 539px
+    &__name,
+    &__number
+      min-width: 47%
+
+  .bottom
+    margin-top: 60px
+
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -209,7 +225,9 @@
         margin-right: -125px
         right: 50%
         transform: translate(50, 0)
-
+    .form
+      &__name
+        min-width: 100%
 
 @media ( max-width: 576px )
   .logo
@@ -248,6 +266,53 @@
       padding: 40px 0 40px 0
     &-card
       width: 100%
+  .footer
+    &-grid
+      grid-template: repeat(8, minmax(40px,min-content)) / 1fr
+      padding-top: 73px
+    
+      &__categories
+        grid-row: 5
+        grid-column: 1
+        margin-top: 40px
+      &__additional
+        grid-row: 4      
+        grid-column: 1
+        margin-top: 40px
+      &__legal
+        grid-row: 3
+        grid-column: 1
+        margin-top: 40px
+      &__social
+        align-items: center
+        grid-row: 2
+        grid-column: 1
+        margin-top: 30px
+      &__contacts
+        grid-row: 6
+        grid-column: 1
+        margin-top: 60px
+      &__form
+        grid-row: 7
+        grid-column: 1
+        margin-top: 60px
+      &__bottom
+        grid-row: 8
+        grid-column: 1
+        justify-content: flex-start
+        margin-top: 15px
 
-
+  .form
+    &__name,
+    &__number
+      min-width: 100%
+    &__reqfields
+      left: 0
+      bottom: 65px
+    &__button
+      margin-top: 45px
+  .bottom
+    &__payments
+      left: 0
+      bottom: -30px
   
