@@ -58,7 +58,7 @@ $(document).ready(function(){
   var closeModalButton = $(".modal__close");
   modalButton.on('click', openModal);
   closeModalButton.on('click', closeModal);
-  modalButton.keydown(27, closeModal);
+  // modalButton.keydown(27, closeModal);
   
   function openModal() {
     var targetModal = $(this).attr("data-href");
@@ -73,6 +73,14 @@ $(document).ready(function(){
     modalOverlay.removeClass('modal__overlay--visible');
     modalDialog.removeClass('modal__dialog--visible');
   }
+
+  $(document).keydown(function (esc) {
+    var closeOverlay = esc.keyCode;
+    if (closeOverlay == 27) $(".modal__overlay--visible").removeClass('modal__overlay--visible');
+    var closeDialog = esc.keyCode;
+    if (closeDialog == 27) $(".modal__dialog--visible").removeClass('modal__dialog--visible');
+  });
+
 
 
 });
