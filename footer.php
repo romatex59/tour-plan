@@ -93,11 +93,15 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
           <!-- /.footer-grid__contacts contacts -->
           <div class="footer-grid__form form">
             <h3 class="form__title">send us a message</h3>
-            <form class="form form__flex" action="send.php" method="POST">
+            <form class="form__flex valid" action="send.php" method="POST">
+              <div class="form__input-group">
               <input name="name" type="text" class="input form__input" placeholder="Your Full Name*" required>
-              <input name="phone" type="tel" class="input form__input" placeholder="Phone Number*" required>
+              </div>
+              <div class="form__input-group">
+              <input name="phone" type="tel" class="input form__input" data-mask="+0(000)000-00-00" placeholder="Phone Number*" required>
+              </div>             
               <textarea name="message" id="message" class="message form__message" placeholder="Message"></textarea>
-              <button class="button form__button">Send</button>
+              <button type="submit" class="button form__button">Send</button>
               <span class="reqfields form__reqfields">* Required Fields</span>
             </form>
             <!-- /.form__inputs -->
@@ -120,9 +124,9 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
     </footer>
     <!-- /.footer -->
     <?php @include('modal.php'); ?>
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
     <script src="/js/swiper-bundle.js"></script>
     <script src="/js/parallax.min.js"></script>
     <script src="/js/main.js"></script>

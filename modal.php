@@ -6,12 +6,12 @@
       <img src="img/close.svg" alt="icon: close">
     </a>
     <h3 class="modal__title">booking</h3>
-            <form class="form modal__flex" action="send.php" method="POST">
+            <form class="modal__flex valid" action="send.php" method="POST">
               <input name="name" type="text" class="input modal__input" placeholder="Your Full Name*" required minlength="3" maxlength="12" >
-              <input name="phone" type="tel" class="input modal__input" placeholder="Phone Number*" required>
+              <input name="phone" type="tel" class="input modal__input" data-mask="+0(000)000-00-00" placeholder="Phone Number*" required>
               <input name="email" type="email" class="input modal__input" placeholder="EMail*" required>
               <textarea name="message" id="message" class="message modal__message" placeholder="Message"></textarea>
-              <button class="button modal__button">Send</button>
+              <button type="submit" class="button modal__button">Send</button>
               <span class="reqfields modal__reqfields">* Required Fields</span>
             </form>
             <!-- /.modal__inputs -->
@@ -28,12 +28,12 @@
       <img src="img/close.svg" alt="icon: close">
     </a>
     <h3 class="modal__title">Send your feedback</h3>
-            <form class="form modal__flex" action="send.php" method="POST">
+            <form class="modal__flex valid" action="send.php" method="POST">
               <input name="name" type="text" class="input modal__input" placeholder="Your Full Name*" required minlength="3" maxlength="12">
-              <input name="phone" type="tel" class="input modal__input" placeholder="Phone Number*" required>
+              <input name="phone" type="tel" class="input modal__input" data-mask="+0(000)000-00-00" placeholder="Phone Number*" required>
               <input name="email" type="email" class="input modal__input" placeholder="EMail*" required>
               <textarea name="message" id="message" class="message modal__message" placeholder="Message"></textarea>
-              <button class="button modal__button">Send</button>
+              <button type="submit" class="button modal__button">Send</button>
               <span class="reqfields modal__reqfields">* Required Fields</span>
             </form>
             <!-- /.modal__inputs -->

@@ -81,6 +81,26 @@ $(document).ready(function(){
     if (closeDialog == 27) $(".modal__dialog").removeClass('modal__dialog--visible');
   });
 
-
+  // Form validate
+  $( ".valid" ).each(function () {
+    $(this).validate({
+      errorClass: "invalid",
+      messages: {
+        name: {
+          required: "Please, inter your name, bro!",
+          minlength: "Your name must be at least 3 letters long",
+        },
+        email: {
+          required: "We need your email",
+          email: "Format: exam@com.com",
+        },
+        phone: {
+          required: "We need to your phone",
+        },
+      },
+    });
+  });
+  // Phone validate
+  $('.phone').mask('0000-0000');
 
 });
