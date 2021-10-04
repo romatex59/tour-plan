@@ -98,14 +98,17 @@
         grid-row: 2
         grid-column: 2
         margin-top: 40px
+        margin-left: 20px
       &__legal
         grid-row: 2
         grid-column: 3
         margin-top: 40px
+        margin-left: 20px
       &__social
         align-items: center
         grid-row: 1
         grid-column: 2/4
+        margin-left: 20px
       &__contacts
         grid-row: 3
         grid-column: 1/4
@@ -124,7 +127,7 @@
 
 @media (max-width: 768px)
   .container
-    max-width: 576px
+    // max-width: 576px
     width: 92%
   body
     padding-top: 78px
@@ -228,11 +231,9 @@
         padding: 7px 15px
   .newsletter
     &-wrapper
-      max-width: 576px
       width: 92%
-      flex-direction: column
-      align-items: flex-start
-  
+    &-title
+      margin-right: 30px
   .reviews
     &-title
       font-size: 18px
@@ -254,6 +255,9 @@
         margin-right: -125px
         right: 50%
         transform: translate(50, 0)
+  .footer
+    h3
+      font-size: 15px
 
 @media ( max-width: 576px )
   .logo
@@ -284,8 +288,14 @@
         margin-top: 10px
   .newsletter
     padding: 76px 0 83px 0
-    &__title
+    &-wrapper
+      flex-direction: column
+      align-items: flex-start
+    &-title
       margin-bottom: 37px
+      font-size: 20px
+      &__strong
+        font-size: 30px
   .subscribe
     width: 100%
   .activities
@@ -307,15 +317,18 @@
         grid-row: 4      
         grid-column: 1
         margin-top: 40px
+        margin-left: 0
       &__legal
         grid-row: 3
         grid-column: 1
         margin-top: 40px
+        margin-left: 0
       &__social
         align-items: center
         grid-row: 2
         grid-column: 1
         margin-top: 30px
+        margin-left: 0
       &__contacts
         grid-row: 6
         grid-column: 1

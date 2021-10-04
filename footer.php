@@ -7,7 +7,7 @@
             class="footer-logo"
           />
           <div class="footer-grid__categories categories">
-            <h3 class="categories__title">All categories</h3>
+            <h3 class="categories__title">All&nbsp;categories</h3>
             <ul class="footer-grid__ul">
               <li class="footer-grid__li"><a href="#">All Deals </a></li>
               <li class="footer-grid__li"><a href="#">Hotels</a></li>
@@ -23,7 +23,7 @@
           </div>
           <!-- /.footer-grid__categories .categories-->
           <div class="footer-grid__additional additional">
-            <h3 class="additional__title">additional information</h3>
+            <h3 class="additional__title">additional&nbsp;information</h3>
             <ul class="footer-grid__ul">
               <li class="footer-grid__li"><a href="#">About Us</a></li>
               <li class="footer-grid__li"><a href="#">Contact Us </a></li>
@@ -43,7 +43,7 @@
           </div>
           <!-- /.footer-grid__additional additional -->
           <div class="footer-grid__legal legal">
-            <h3 class="legal__title">legal information</h3>
+            <h3 class="legal__title">legal&nbsp;information</h3>
             <ul class="footer-grid__ul">
               <li class="footer-grid__li">
                 <a href="#">Terms & Conditions </a>
@@ -57,7 +57,7 @@
           </div>
           <!-- /.footer-grid__legal legal -->
           <div class="footer-grid__social social">
-            <h3 class="social__title">social network</h3>
+            <h3 class="social__title">social&nbsp;network</h3>
             <div class="social__icons">
               <img src="/img/facebook.svg" alt="facebook" class="social__icon">
               <img src="/img/youtube.svg" alt="youtube" class="social__icon">
@@ -67,7 +67,7 @@
           </div>
           <!-- /.footer-grid__social -->
           <div class="footer-grid__contacts contacts">
-            <h3 class="contacts__title">Contact Details</h3>
+            <h3 class="contacts__title">Contact&nbsp;Details</h3>
             <span class="contacts__subtitle">Feel free to contact us by phone, email or by our contact form</span>
             <table>
               <tr>
@@ -120,10 +120,10 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
     </footer>
     <!-- /.footer -->
     <?php @include('modal.php'); ?>
-    <script src="/js/jquery-3.6.0.min.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
     <script src="/js/swiper-bundle.js"></script>
-    <script src="/js/parallax.js"></script>
     <script src="/js/parallax.min.js"></script>
     <script src="/js/main.js"></script>
   </body>
