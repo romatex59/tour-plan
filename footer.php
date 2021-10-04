@@ -93,9 +93,9 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
           <!-- /.footer-grid__contacts contacts -->
           <div class="footer-grid__form form">
             <h3 class="form__title">send us a message</h3>
-            <form class="form__flex" action="send.php" method="POST">
+            <form class="form form__flex" action="send.php" method="POST">
               <input name="name" type="text" class="input form__input" placeholder="Your Full Name*">
-              <input name="phone" type="text" class="input form__input" placeholder="Phone Number*">
+              <input name="phone" type="tel" class="input form__input" placeholder="Phone Number*">
               <textarea name="message" id="message" class="message form__message" placeholder="Message"></textarea>
               <button class="button form__button">Send</button>
               <span class="reqfields form__reqfields">* Required Fields</span>

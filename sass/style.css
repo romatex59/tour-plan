@@ -1460,6 +1460,7 @@ template {
 }
 
 .modal__input {
+  min-width: 302px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
@@ -1474,11 +1475,6 @@ template {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   margin-top: 15px;
-}
-
-.modal__reqfields {
-  -ms-flex-preferred-size: 32%;
-      flex-basis: 32%;
 }
 
 .footer {
@@ -1987,7 +1983,7 @@ template {
     font-size: 18px;
   }
   .packages-grid__topbooking {
-    margin: 28px 13px 18px 26px;
+    margin: 35px 13px 18px 26px;
   }
   .packages-grid__toptext {
     font-size: 13px;
@@ -2048,11 +2044,14 @@ template {
     margin-bottom: 20px;
   }
   .packages-grid__topbooking {
-    margin: 14px 6px 9px 13px;
+    margin: 35px 6px 9px 13px;
   }
   .packages-grid__toptext {
     font-size: 11px;
     margin-bottom: 17px;
+  }
+  .grid-booking__title {
+    font-size: 16px;
   }
   .grid-booking__oldprice {
     text-align: center;

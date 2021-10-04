@@ -453,12 +453,13 @@
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="send.php" method="POST" class="subscribe">
+        <form action="send.php" method="POST" class="form subscribe">
           <input
             name="email"
             type="email"
             class="subscribe__input"
             placeholder="Your email address"
+            required
           />
           <button class="subscribe__button">Send</button>
         </form>

@@ -76,9 +76,9 @@ $(document).ready(function(){
 
   $(document).keydown(function (esc) {
     var closeOverlay = esc.keyCode;
-    if (closeOverlay == 27) $(".modal__overlay--visible").removeClass('modal__overlay--visible');
+    if (closeOverlay == 27) $(".modal__overlay").removeClass('modal__overlay--visible');
     var closeDialog = esc.keyCode;
-    if (closeDialog == 27) $(".modal__dialog--visible").removeClass('modal__dialog--visible');
+    if (closeDialog == 27) $(".modal__dialog").removeClass('modal__dialog--visible');
   });
 
 
