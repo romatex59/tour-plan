@@ -12,13 +12,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="sass/swiper-bundle.min.css" class="css" />
+    <link rel="stylesheet" href="sass/aos.css">
     <link rel="stylesheet" href="sass/style.css" />
   </head>
   <body>
     <header class="navbar navbar__mobile--fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="/" class="logo">
+          <a href="/" class="logo" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
             <img
               src="../img/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -35,7 +38,9 @@
               <img src="img/search.svg" alt="Icon: Search" />
             </button>
           </form>
-          <a href="#" class="user user__hidden navbar__user">
+          <a href="#" class="user user__hidden navbar__user" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
             <img src="img/avatar.jfif" alt="Avatar" class="user__avatar" />
             <span class="user__name"><?= "Roman" ?></span>
           </a>

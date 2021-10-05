@@ -147,8 +147,9 @@
       <div class="container">
         <h2 class="packages-title">Other packages</h2>
         <div class="packages-grid">
-          <div class="packages-grid__topitem">
-            <span class="packages-grid__offer">Flash Offer</span>
+          <div class="packages-grid__topitem" data-aos="fade-right">
+            <span class="packages-grid__offer" data-aos="fade-right" data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Flash Offer</span>
             <img
               src="/img/packages-topimage.jfif"
               alt="Photo: Hotel"
@@ -213,8 +214,9 @@
             <!-- /.packages-grid__topbooking -->
           </div>
           <!-- /.packages-grid__item1 -->
-          <div class="packages-grid__item">
-            <span class="packages-grid__smalloffer">Flash Offer</span>
+          <div class="packages-grid__item" data-aos="fade-left">
+            <span class="packages-grid__smalloffer" data-aos="fade-right" data-aos-offset="300"
+     data-aos-easing="ease-in-sine">Flash Offer</span>
             <img
               src="/img/packages-image2.jfif"
               alt="Photo: Hotel"
@@ -269,7 +271,7 @@
             <!-- /.packages-grid__topbooking -->
           </div>
           <!-- /.packages-grid__item -->
-          <div class="packages-grid__item">
+          <div class="packages-grid__item" data-aos="zoom-in" data-aos-delay="200">
             <span class="packages-grid__smalloffer">Flash Offer</span>
             <img
               src="/img/packages-image3.jfif"
@@ -325,7 +327,7 @@
             <!-- /.packages-grid__topbooking -->
           </div>
           <!-- /.packages-grid__item -->
-          <div class="packages-grid__item">
+          <div class="packages-grid__item" data-aos="zoom-in" data-aos-delay="400">
             <span class="packages-grid__smalloffer">Flash Offer</span>
             <img
               src="/img/packages-image4.jfif"
@@ -381,7 +383,7 @@
             <!-- /.packages-grid__topbooking -->
           </div>
           <!-- /.packages-grid__item -->
-          <div class="packages-grid__item">
+          <div class="packages-grid__item" data-aos="zoom-in" data-aos-delay="600">
             <span class="packages-grid__smalloffer">Flash Offer</span>
             <img
               src="/img/packages-image5.jfif"
@@ -587,7 +589,7 @@
       <div class="container">
         <h2 class="activities-title">Other Activities</h2>
         <div class="activities-list">
-          <div class="activities-card">
+          <div class="activities-card" data-aos="fade-right" data-aos-delay="200">
             <img
               src="/img/activities-img1.jpg"
               alt=""
@@ -599,7 +601,7 @@
             <button class="activities-card__button">Book Now</button>
           </div>
           <!-- /.activities-card -->
-          <div class="activities-card">
+          <div class="activities-card" data-aos="fade-right" data-aos-delay="400">
             <img
               src="/img/activities-img2.jpg"
               alt=""
@@ -611,7 +613,7 @@
             <button class="activities-card__button">Book Now</button>
           </div>
           <!-- /.activities-card -->
-          <div class="activities-card">
+          <div class="activities-card" data-aos="fade-right" data-aos-delay="600">
             <img
               src="/img/activities-img3.jpg"
               alt=""
@@ -623,7 +625,7 @@
             <button class="activities-card__button">Book Now</button>
           </div>
           <!-- /.activities-card -->
-          <div class="activities-card">
+          <div class="activities-card" data-aos="fade-right" data-aos-delay="800">
             <img
               src="/img/activities-img4.jpg"
               alt=""

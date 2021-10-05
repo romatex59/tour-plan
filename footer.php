@@ -129,6 +129,7 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
     <script src="/js/jquery.mask.min.js"></script>
     <script src="/js/swiper-bundle.js"></script>
     <script src="/js/parallax.min.js"></script>
+    <script src="/js/aos.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>

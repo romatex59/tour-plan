@@ -100,7 +100,8 @@ $(document).ready(function(){
       },
     });
   });
-  // Phone validate
-  $('.phone').mask('0000-0000');
+
+  //Activate AOS animation
+  AOS.init();
 
 });
