@@ -10,6 +10,8 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
       rel="stylesheet"
+      rel="preload" 
+      as="font"
     />
     <link rel="stylesheet" href="sass/swiper-bundle.min.css" class="css" />
     <link rel="stylesheet" href="sass/aos.css">
