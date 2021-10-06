@@ -112,7 +112,7 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
               <a class="bottom__link" href="#"> Disclaimer </a>
               <a class="bottom__link" href="#"> Conditions of use </a>
               <a class="bottom__link" href="#"> Cancellation policy </a>
-              <img src="/img/payments.png" alt="payments" class="bottom__payments">
+              <img src="/img/payments.webp" alt="payments" class="bottom__payments">
           </div>            
             <!-- /.footer-grid__bottom bottom -->
           </div>

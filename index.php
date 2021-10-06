@@ -38,35 +38,35 @@
                 <div class="swiper-slide">
                   <img
                     class="swiper-slide__image"
-                    src="/img/slide1.jpg"
+                    src="/img/slide1.webp"
                     alt="slide"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="swiper-slide__image"
-                    src="/img/slide2.jpg"
+                    src="/img/slide2.webp"
                     alt="slide"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="swiper-slide__image"
-                    src="/img/slide3.jpg"
+                    src="/img/slide3.webp"
                     alt="slide"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="swiper-slide__image"
-                    src="/img/slide4.jpg"
+                    src="/img/slide4.webp"
                     alt="slide"
                   />
                 </div>
                 <div class="swiper-slide">
                   <img
                     class="swiper-slide__image"
-                    src="/img/slide5.jpg"
+                    src="/img/slide5.webp"
                     alt="slide"
                   />
                 </div>
@@ -151,7 +151,7 @@
             <span class="packages-grid__offer" data-aos="fade-right" data-aos-offset="300"
      data-aos-easing="ease-in-sine">Flash Offer</span>
             <img
-              src="/img/packages-topimage.jfif"
+              src="/img/packages-topimage.webp"
               alt="Photo: Hotel"
               class="packages-grid__topimage"
             />
@@ -218,7 +218,7 @@
             <span class="packages-grid__smalloffer" data-aos="fade-right" data-aos-offset="300"
      data-aos-easing="ease-in-sine">Flash Offer</span>
             <img
-              src="/img/packages-image2.jfif"
+              src="/img/packages-image2.webp"
               alt="Photo: Hotel"
               class="packages-grid__image"
             />
@@ -274,7 +274,7 @@
           <div class="packages-grid__item" data-aos="zoom-in" data-aos-delay="200">
             <span class="packages-grid__smalloffer">Flash Offer</span>
             <img
-              src="/img/packages-image3.jfif"
+              src="/img/packages-image3.webp"
               alt="Photo: Hotel"
               class="packages-grid__image"
             />
@@ -330,7 +330,7 @@
           <div class="packages-grid__item" data-aos="zoom-in" data-aos-delay="400">
             <span class="packages-grid__smalloffer">Flash Offer</span>
             <img
-              src="/img/packages-image4.jfif"
+              src="/img/packages-image4.webp"
               alt="Photo: Hotel"
               class="packages-grid__image"
             />
@@ -386,7 +386,7 @@
           <div class="packages-grid__item" data-aos="zoom-in" data-aos-delay="600">
             <span class="packages-grid__smalloffer">Flash Offer</span>
             <img
-              src="/img/packages-image5.jfif"
+              src="/img/packages-image5.webp"
               alt="Photo: Hotel"
               class="packages-grid__image"
             />
@@ -448,7 +448,7 @@
     <section
       class="newsletter parallax-window"
       data-parallax="scroll"
-      data-image-src="../img/subscribe-bg.jfif"
+      data-image-src="../img/subscribe-bg.webp"
     >
       <div class="newsletter-wrapper">
         <h2 class="newsletter-title newsletter__title">
@@ -481,7 +481,7 @@
                 <div class="reviews-slider__item">
                   <div class="reviews-slider__profile">
                     <img
-                      src="/img/reviews-avatar.jfif"
+                      src="/img/reviews-avatar.webp"
                       alt=""
                       class="reviews-slider__avatar"
                     />
@@ -516,7 +516,7 @@
                 <div class="reviews-slider__item">
                   <div class="reviews-slider__profile">
                     <img
-                      src="/img/reviews-avatar2.jpg"
+                      src="/img/reviews-avatar2.webp"
                       alt="John Newman"
                       class="reviews-slider__avatar"
                     />
@@ -543,7 +543,7 @@
                 <div class="reviews-slider__item">
                   <div class="reviews-slider__profile">
                     <img
-                      src="/img/reviews-avatar3.jpg"
+                      src="/img/reviews-avatar3.webp"
                       alt="Alina Goldberg"
                       class="reviews-slider__avatar"
                     />
@@ -591,7 +591,7 @@
         <div class="activities-list">
           <div class="activities-card" data-aos="fade-right" data-aos-delay="200">
             <img
-              src="/img/activities-img1.jpg"
+              src="/img/activities-img1.webp"
               alt=""
               class="activities-card__image"
             />
@@ -603,7 +603,7 @@
           <!-- /.activities-card -->
           <div class="activities-card" data-aos="fade-right" data-aos-delay="400">
             <img
-              src="/img/activities-img2.jpg"
+              src="/img/activities-img2.webp"
               alt=""
               class="activities-card__image"
             />
@@ -615,7 +615,7 @@
           <!-- /.activities-card -->
           <div class="activities-card" data-aos="fade-right" data-aos-delay="600">
             <img
-              src="/img/activities-img3.jpg"
+              src="/img/activities-img3.webp"
               alt=""
               class="activities-card__image"
             />
@@ -627,7 +627,7 @@
           <!-- /.activities-card -->
           <div class="activities-card" data-aos="fade-right" data-aos-delay="800">
             <img
-              src="/img/activities-img4.jpg"
+              src="/img/activities-img4.webp"
               alt=""
               class="activities-card__image"
             />

@@ -41,7 +41,7 @@
           <a href="#" class="user user__hidden navbar__user" data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
-            <img src="img/avatar.jfif" alt="Avatar" class="user__avatar" />
+            <img src="img/avatar.webp" alt="Avatar" class="user__avatar" />
             <span class="user__name"><?= "Roman" ?></span>
           </a>
           <!-- /.user -->
@@ -59,7 +59,7 @@
           <ul class="navbar-menu">
             <li class="navbar-menu__item navbar-menu__item--hidden">
               <a href="#" class="user user__visible navbar__user">
-                <img src="img/avatar.jfif" alt="Avatar" class="user__avatar" />
+                <img src="img/avatar.webp" alt="Avatar" class="user__avatar" />
                 <span class="user__name"><?="Roman"?></span>
               </a>
             </li>
