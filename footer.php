@@ -124,7 +124,6 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
     </footer>
     <!-- /.footer -->
     <?php @include('modal.php'); ?>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
     <script src="/js/jquery-3.6.0.min.js"></script>
     <script src="/js/jquery.validate.min.js"></script>
     <script src="/js/jquery.mask.min.js"></script>
