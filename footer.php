@@ -79,9 +79,9 @@
               <tr>
                 <td><img src="/img/phone.svg" alt="phone" class="contacts__icon"></td>
                 <td>
-                  Tel (business hours) : 269 1500 </br>
-Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm) </br>
-Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
+                  Tel (business hours) : 269 1500 <br />
+Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm) <br />
+Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) <br />
                 </td>
               </tr>
               <tr>
@@ -100,7 +100,7 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) </br>
               <div class="form__input-group">
               <input name="phone" type="tel" class="input form__input" data-mask="+0(000)000-00-00" placeholder="Phone Number*" required>
               </div>             
-              <textarea name="message" id="message" class="message form__message" placeholder="Message"></textarea>
+              <textarea name="message" class="message form__message" placeholder="Message"></textarea>
               <button type="submit" class="button form__button">Send</button>
               <span class="reqfields form__reqfields">* Required Fields</span>
             </form>

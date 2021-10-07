@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Tour Plan - Hotel Booking</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
-      rel="stylesheet"
+      type="font/woff2"
       rel="preload" 
       as="font"
     />
@@ -44,7 +44,7 @@
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
             <img src="img/avatar.webp" alt="Avatar" class="user__avatar" />
-            <span class="user__name"><?= "Roman" ?></span>
+            <span class="user__name">Roman</span>
           </a>
           <!-- /.user -->
           <button class="menu-button navbar-top__menu-button">
@@ -62,7 +62,7 @@
             <li class="navbar-menu__item navbar-menu__item--hidden">
               <a href="#" class="user user__visible navbar__user">
                 <img src="img/avatar.webp" alt="Avatar" class="user__avatar" />
-                <span class="user__name"><?="Roman"?></span>
+                <span class="user__name">Roman</span>
               </a>
             </li>
             <li class="navbar-menu__item navbar-menu__item--hidden">
