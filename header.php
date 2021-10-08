@@ -5,22 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Tour Plan - Hotel Booking</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;800&display=swap"
-      type="font/woff2"
-      rel="preload" 
-      as="font"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/swiper-bundle.min.css" class="css" />
     <link rel="stylesheet" href="sass/aos.css">
     <link rel="stylesheet" href="sass/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
   </head>
   <body>
     <header class="navbar navbar__mobile--fixed">
       <div class="container">
         <div class="navbar-top">
+          <div class="navbar-logo">
           <a href="/" class="logo" data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
@@ -30,6 +28,8 @@
               class="logo__image"
             />
           </a>
+          </div>
+          
           <form action="#" class="search search__hidden navbar__search">
             <input
               type="text"

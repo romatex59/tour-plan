@@ -12,16 +12,22 @@
     display: grid
     grid-template: 1fr 1fr / 1fr 1fr 1fr
     grid-gap: 30px
+    &__stars
+      display: flex
+      margin-bottom: 5px
+      img
+        margin-right: 2px
     &__offer
       display: block
       position: absolute
       color: $light
       background-color: $primary
-      padding: 7px 12px
+      padding: 7px 20px 7px 12px
       border: none
       border-radius: 0px 4px 4px 0px
       left: 0
       top: 26px
+      font-size: 12px
     &__smalloffer
       display: block
       position: absolute
@@ -32,6 +38,7 @@
       border-radius: 0px 4px 4px 0px
       left: 0
       top: 26px
+      font-size: 8px
     &__topimage
       min-width: 50%
       object-fit: cover
@@ -82,7 +89,7 @@
       font-size: 14px
       line-height: 160.6%
       color: $light
-      margin-bottom: 34px
+      margin-bottom: 40px
       margin-top: 0
 .grid
   &-price
@@ -96,6 +103,7 @@
       color: $light
       margin: 0 0 23px 0
     &__text
+      display: flex
       font-style: normal
       font-weight: normal
       font-size: 12px
@@ -125,7 +133,7 @@
       line-height: 30px
       color: $light
     &__button
-      padding: 10px 27px
+      padding: 12px 30px
       border: none
       border-radius: 4px
       color: $light

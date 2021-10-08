@@ -14,8 +14,9 @@
     text-align: center
     text-transform: uppercase
     margin-bottom: 70px
+    margin-top: 0px
   &-slider
-    max-width: 1024px
+    max-width: 1110px
     height: 450px
     overflow: hidden
     &__item
@@ -66,6 +67,7 @@
       line-height: 15px
       color: $primary
       margin-bottom: 10px
+      margin-top: 0px
     &__date
       font-style: normal
       font-weight: normal
@@ -75,6 +77,8 @@
     &__rating
       display: flex
       align-items: center
+      img
+        margin-right: 2px
     &__text
       max-width: 537px
       font-style: normal
@@ -85,7 +89,7 @@
       margin: auto
   &-button
     position: absolute
-    top: 43%
+    top: 33%
     transform: translateY(-50%)
     z-index: 99
     width: 30px
@@ -97,10 +101,10 @@
     background-size: 10px
     background-color: transparent
     &--next
-      right: 0
+      right: 20px
       background-image: url(../img/arrow-right.svg)
       filter: invert(55%) sepia(0%) saturate(992%) hue-rotate(198deg) brightness(93%) contrast(89%)
     &--prev
-      left: 0
+      left: 15px
       background-image: url(../img/arrow-left.svg)
       filter: invert(55%) sepia(0%) saturate(992%) hue-rotate(198deg) brightness(93%) contrast(89%)

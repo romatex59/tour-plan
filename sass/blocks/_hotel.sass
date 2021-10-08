@@ -1,19 +1,19 @@
 .hotel
-  padding-top: 23px
-  padding-bottom: 70px
+  padding-top: 28px
+  padding-bottom: 80px
   &-info
     display: flex
     align-items: center
     justify-content: space-between
-    padding-bottom: 10px
+    padding-bottom: 20px
     &__offer
       margin-left: 14px
-      margin-top: 4px
     &__name
-      margin-top: 4px
+      margin-top: 0px
       margin-bottom: 0px
+      text-transform: uppercase
     &__description
-      margin: 5px 0
+      margin: 0px
     &__rating
       cursor: pointer
   &-name
@@ -35,7 +35,10 @@
     justify-content: space-between
     
 .stars
+  display: flex
   flex-basis: 100%
+  img
+    margin-right: 2px
 .offer
   font-size: 10px
   line-height: 13px
@@ -43,6 +46,7 @@
   background-color: $primary
   border-radius: 3px
   color: $light
+  
 .rating
   max-width: 65px
   min-height: 45px
@@ -96,9 +100,9 @@
       background-image: url(../img/arrow-left.svg)
 .booking
   border-radius: 8px
-  width: 350px
-  min-height: 210px
-  padding: 28px
+  max-width: 350px
+  max-height: 210px
+  padding: 35px 28px 35px 28px
   background-color: $dark
   color: $light
   &__info
@@ -112,7 +116,7 @@
   &__start
     font-weight: normal
     font-size: 10px
-    line-height: 14px
+    line-height: 10px
   &__pricetag
     font-style: normal
     font-weight: 800
@@ -122,9 +126,9 @@
     font-style: normal
     font-weight: normal
     font-size: 12px
-    line-height: 16px
+    line-height: 10px
   &__room
-    margin-top: 4px
+    align-self: baseline
   &__text
     display: flex
     align-items: center
@@ -161,7 +165,7 @@
     margin-left: 8px
   &__button
     width: 100%
-    min-height: 45px
+    max-height: 45px
     font-weight: 600
     font-size: 14px
     line-height: 19px

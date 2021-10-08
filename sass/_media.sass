@@ -31,13 +31,15 @@
   .newsletter-wrapper
     max-width: 700px
   .logo
-    width: 132px
+    
   .navbar
+    &-logo
+      max-width: 134px
     &-top 
       padding-top: 30px
       padding-bottom: 30px
     &__search
-      margin-left: auto
+      margin-left: 45px
     &-menu
       padding-top: 22px
       padding-bottom: 22px
@@ -48,6 +50,7 @@
       &__input
         width: 340px
   .hotel
+    padding-top: 24px
     &-grid
       flex-direction: column
     &__slider
@@ -56,15 +59,25 @@
       flex-direction: row
   .booking
     width: 340px
+    padding: 34px 25px 34px 25px
   .slider
     width: 100%
   .map
-    height: 225px
+    max-height: 210px
   .reviews
+    &-title
+      font-size: 30px
+      margin-bottom: 40px
     &-slider
       max-width: 700px
       &__item
         max-width: 580px
+    &-button
+      top: 38%
+      &--prev
+        left: 0px
+      &--next
+        right: 0px
   .packages
     &-title
       font-size: 30px
@@ -77,38 +90,46 @@
       &__toptext
         font-size: 14px
   .activities
+    &-title
+      padding-top: 15px
     &-list
+      margin-bottom: 50px
       flex-wrap: wrap
     &-card
       width: 48%
       margin-bottom: 20px
+      height: 255px
   .footer
+    
     &-logo
       grid-row: 1
       grid-column: 1
       margin-top: 0
+      max-width: 95px
     &-grid
       grid-template: repeat(5, minmax(40px,min-content)) / repeat(3, 1fr)
       padding-top: 73px
       &__categories
         grid-row: 2/3
         grid-column: 1
-        margin-top: 40px
+        margin-top: 50px
+        margin-left: 0px
       &__additional
         grid-row: 2
         grid-column: 2
-        margin-top: 40px
-        margin-left: 20px
+        margin-top: 50px
+        margin-left: -30px
       &__legal
         grid-row: 2
         grid-column: 3
-        margin-top: 40px
-        margin-left: 20px
+        margin-top: 50px
+        margin-left: 35px
       &__social
         align-items: center
         grid-row: 1
         grid-column: 2/4
-        margin-left: 20px
+        margin-left: -45px
+        margin-top: 10px
       &__contacts
         grid-row: 3
         grid-column: 1/4
@@ -116,14 +137,28 @@
       &__form
         grid-row: 4
         grid-column: 1/4
-        margin-top: 60px
+        margin-top: 55px
+        margin-left: 0px
+        max-width: 545px
+
       &__bottom
         grid-row: 5
         grid-column: 1/4
         justify-content: flex-start
 
+  .categories
+    &__wrap
+      margin-left: 0px
+  .additional
+    &__wrap
+      margin-left: 0px
+  .form
+    &__button
+      padding: 20px 65px
   .bottom
     margin-top: 60px
+    &__link
+      font-size: 12px !important
 
 @media (max-width: 768px)
   .container
@@ -209,6 +244,7 @@
       min-height: 450px
   .booking
     width: 100%
+    max-width: 768px
   .map
     width: 100%
     height: 213px
@@ -219,7 +255,7 @@
       font-size: 18px
     &-grid
       &__topbooking
-        margin: 35px 13px 18px 26px
+        margin: 55px 25px 0px 25px
       &__toptext
         font-size: 13px
         
@@ -255,6 +291,9 @@
         margin-right: -125px
         right: 50%
         transform: translate(50, 0)
+  .activities
+    &-title
+      font-size: 18px
   .footer
     h3
       font-size: 15px
@@ -269,15 +308,29 @@
       margin-bottom: 20px
   .packages
     &-grid
+      &__toptitle
+        font-size: 14px
+        margin-bottom: 10px
       &__topbooking
         margin: 35px 6px 9px 13px
       &__toptext
         font-size: 11px
         margin-bottom: 17px
+        max-height: 180px
+        overflow: scroll
+      &__smallbooking
+        margin: 10px
+
   .grid
     &-booking
       &__title
-        font-size: 16px
+        font-size: 14px
+      &__toptitle
+        font-size: 14px
+      &__toptext
+        font-size: 9px
+      &__smallbooking
+        margin: 10px 5px 10px 5px
       &__oldprice
         text-align: center
       &__description
@@ -286,8 +339,13 @@
         flex-direction: column
       &__button
         margin-top: 10px
+      &__icon
+        height: 100%
+  .booking
+    &__button
+      font-size: 12px
   .newsletter
-    padding: 76px 0 83px 0
+    padding: 46px 0 46px 0
     &-wrapper
       flex-direction: column
       align-items: flex-start
@@ -352,5 +410,52 @@
     &__payments
       left: 0
       bottom: -30px
+    
+
+@media ( max-width: 320px )
+  .navbar
+    &-logo
+      max-width: 100px
+      margin: -10px 5px 5px 5px
+  .breadcrumb
+    &-list
+      padding: 10px 0px 0px 5px
+  .hotel
+    padding-bottom: 0px
+    &-info
+      &__text
+        width: 95%
+        padding-left: 10px
+    &-right
+      width: 95%
+      margin: 0px 0px 0px 7px
+  .slider
+    max-height: 180px
+    max-width: 278px
+    margin: 15px 0px 20px 7px
+  .booking
+    max-width: 280px
+    padding: 30px 25px 35px 25px
+    &__button
+      padding: 14px 0px
+  .grid
+    &-booking
+      &__title
+        font-size: 12px
+  .map
+    margin-bottom: 45px
+    max-height: 175px
+  .packages
+    margin-bottom: 40px
+  .newsletter
+    min-height: 320px
+    padding: 70px 10px 70px 10px
+  .reviews
+    &-title
+      padding: 0px 50px 0px 50px
+  .bottom
+    &__link
+      font-size: 10px !important
+
 
   

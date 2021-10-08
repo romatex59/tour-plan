@@ -7,6 +7,7 @@
             class="footer-logo"
           />
           <div class="footer-grid__categories categories">
+            <div class="categories__wrap">
             <h3 class="categories__title">All&nbsp;categories</h3>
             <ul class="footer-grid__ul">
               <li class="footer-grid__li"><a href="#">All Deals </a></li>
@@ -20,9 +21,11 @@
               <li class="footer-grid__li"><a href="#">Fitness </a></li>
               <li class="footer-grid__li"><a href="#">Rodrigues</a></li>
             </ul>
+            </div>
           </div>
           <!-- /.footer-grid__categories .categories-->
           <div class="footer-grid__additional additional">
+            <div class="additional__wrap">
             <h3 class="additional__title">additional&nbsp;information</h3>
             <ul class="footer-grid__ul">
               <li class="footer-grid__li"><a href="#">About Us</a></li>
@@ -40,9 +43,11 @@
                 <a href="#">Promote your Business on BTP</a>
               </li>
             </ul>
+            </div>
           </div>
           <!-- /.footer-grid__additional additional -->
           <div class="footer-grid__legal legal">
+            <div class="legal__wrap">
             <h3 class="legal__title">legal&nbsp;information</h3>
             <ul class="footer-grid__ul">
               <li class="footer-grid__li">
@@ -54,19 +59,23 @@
               </li>
               <li class="footer-grid__li"><a href="#">Privacy</a></li>
             </ul>
+            </div>
           </div>
           <!-- /.footer-grid__legal legal -->
           <div class="footer-grid__social social">
+            <!-- <div class="social__wrap"> -->
             <h3 class="social__title">social&nbsp;network</h3>
             <div class="social__icons">
               <img src="/img/facebook.svg" alt="facebook" class="social__icon">
               <img src="/img/youtube.svg" alt="youtube" class="social__icon">
               <img src="/img/instagram.svg" alt="instagram" class="social__icon">
-            </div>
+            <!-- </div> -->
             <!-- /.social__icons -->
+            </div>
           </div>
           <!-- /.footer-grid__social -->
           <div class="footer-grid__contacts contacts">
+            <div class="contacts__wrap">
             <h3 class="contacts__title">Contact&nbsp;Details</h3>
             <span class="contacts__subtitle">Feel free to contact us by phone, email or by our contact form</span>
             <table>
@@ -89,9 +98,11 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) <br />
                 <td>cherly.lawson@example.com</td>
               </tr>
             </table>
+            </div>
           </div>
           <!-- /.footer-grid__contacts contacts -->
           <div class="footer-grid__form form">
+            <div class="form__wrap">
             <h3 class="form__title">send us a message</h3>
             <form class="form__flex valid" action="send.php" method="POST">
               <div class="form__input-group">
@@ -105,6 +116,7 @@ Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) <br />
               <span class="reqfields form__reqfields">* Required Fields</span>
             </form>
             <!-- /.form__inputs -->
+            </div>
           </div>
           <!-- /.footer-grid__form form -->
           <div class="footer-grid__bottom">
