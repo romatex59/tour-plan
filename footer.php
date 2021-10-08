@@ -66,9 +66,15 @@
             <!-- <div class="social__wrap"> -->
             <h3 class="social__title">social&nbsp;network</h3>
             <div class="social__icons">
+              <a class="social__icon--link" href="https://facebook.com">
               <img src="/img/facebook.svg" alt="facebook" class="social__icon">
+              </a>
+              <a class="social__icon--link" href="https://youtube.com">
               <img src="/img/youtube.svg" alt="youtube" class="social__icon">
+              </a>
+              <a class="social__icon--link" href="https://instagram.com">
               <img src="/img/instagram.svg" alt="instagram" class="social__icon">
+              </a>             
             <!-- </div> -->
             <!-- /.social__icons -->
             </div>
@@ -88,14 +94,14 @@
               <tr>
                 <td><img src="/img/phone.svg" alt="phone" class="contacts__icon"></td>
                 <td>
-                  Tel (business hours) : 269 1500 <br />
-Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm) <br />
-Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm) <br />
+                  <a href="tel:2691500">Tel (business hours) : 269 1500</a> <br />
+<a href="tel:52566138">Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)</a> <br />
+<a href="tel:52566138">Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</a> <br />
                 </td>
               </tr>
               <tr>
                 <td><img src="/img/email.svg" alt="email" class="contacts__icon"></td>
-                <td>cherly.lawson@example.com</td>
+                <td><a href="mailto:cherly.lawson@example.com">cherly.lawson@example.com</a></td>
               </tr>
             </table>
             </div>

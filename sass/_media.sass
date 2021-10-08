@@ -166,7 +166,23 @@
     width: 92%
   body
     padding-top: 78px
+  .user
+    &__name
+      margin-left: 0px !important
+      margin-top: 15px
   .navbar
+    &-menu
+      padding-bottom: 45px
+      &__item
+        margin-bottom: 18px !important
+    &__search
+      margin: auto
+      margin-top: 5px
+      margin-bottom: 15px !important
+    &__user
+      flex-direction: column
+      align-items: center
+  
     &__mobile
       &--fixed
         position: fixed
@@ -183,6 +199,10 @@
     .user
       &__name
         color: $light
+    .search
+      &__input
+        max-width: 340px
+        width: 100%
     
     &-menu
       flex-direction: column
@@ -296,7 +316,12 @@
       font-size: 18px
   .footer
     h3
-      font-size: 15px
+      font-size: 16px
+    &-grid
+      &__categories       
+        margin-right: 40px
+      &__legal
+        margin-left: 10px
 
 @media ( max-width: 576px )
   .logo
@@ -356,6 +381,11 @@
         font-size: 30px
   .subscribe
     width: 100%
+  .reviews
+    &-slider
+      height: auto
+      &__item
+        padding: 0px 40px 15px 40px
   .activities
     &-title
       font-size: 18px
@@ -363,6 +393,8 @@
     &-card
       width: 100%
   .footer
+    h3
+      font-size: 18px
     &-grid
       grid-template: repeat(8, minmax(40px,min-content)) / 1fr
       padding-top: 73px
@@ -410,9 +442,26 @@
     &__payments
       left: 0
       bottom: -30px
+
+  .modal
+    &__flex
+      justify-content: center
+    &__dialog
+      padding: 25px
+    &__input
+      max-width: 200px
+      min-width: 200px
+    &__message
+      max-width: 200px
+      min-width: 200px
+  .input
+    min-height: 40px
+
     
 
 @media ( max-width: 320px )
+  .container
+    width: 87%
   .navbar
     &-logo
       max-width: 100px
@@ -422,6 +471,8 @@
       padding: 10px 0px 0px 5px
   .hotel
     padding-bottom: 0px
+    &__slider
+      max-width: 265px
     &-info
       &__text
         width: 95%
@@ -431,7 +482,7 @@
       margin: 0px 0px 0px 7px
   .slider
     max-height: 180px
-    max-width: 278px
+    
     margin: 15px 0px 20px 7px
   .booking
     max-width: 280px
@@ -452,10 +503,54 @@
     padding: 70px 10px 70px 10px
   .reviews
     &-title
-      padding: 0px 50px 0px 50px
+      padding: 0px 40px 0px 40px
+    &-button
+      &--prev
+        margin-left: -105px
+      &--next
+        margin-right: -105px
+    &-slider
+      &__item
+        padding: 0px 30px 40px 30px
+  .activities
+    &-title
+      padding-top: 50px
+      padding-bottom: 35px
+  .social
+    &__title
+      width: 100%
+    &__icons
+      margin-left: 0px
+      margin-top: 20px
+  .footer
+    h3
+      font-size: 18px
+    &-grid
+      &__categories
+        margin-top: 30px
+      &__contacts
+        margin-top: 40px
+      &__social
+        display: flex
+        flex-wrap: wrap
+        padding-top: 5px
+      &__legal
+        margin-top: 35px
+      &__additional
+        margin-top: 25px
+      &__form
+        margin-top: 55px
+  .form
+    &__title
+      margin-bottom: 0px !important
+    &__button
+      margin-top: 40px
+    &__reqfields
+      position: absolute
+      margin-top: 280px
   .bottom
     &__link
-      font-size: 10px !important
+      font-size: 11px !important
 
 
   

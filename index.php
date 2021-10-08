@@ -202,7 +202,7 @@
                 <span class="grid-booking__oldprice">$ 10,500</span>
                 <div class="grid-booking__price">
                   <strong class="grid-booking__newprice">$ 8,500</strong>
-                  <button class="button grid-booking__button">Book Now</button>
+                  <button data-toggle="modal" data-href="#booking-modal" class="button grid-booking__button">Book Now</button>
                 </div>
                 <!-- /.booking__price -->
               </div>
@@ -255,7 +255,7 @@
                   <span class="grid-booking__oldprice">$ 8,500</span>
                   <div class="grid-booking__price">
                     <strong class="grid-booking__newprice">$ 3,000</strong>
-                    <button class="button grid-booking__button">
+                    <button data-toggle="modal" data-href="#booking-modal" class="button grid-booking__button">
                       Book Now
                     </button>
                   </div>
@@ -311,7 +311,7 @@
                   <span class="grid-booking__oldprice">$ 10,500</span>
                   <div class="grid-booking__price">
                     <strong class="grid-booking__newprice">$ 9,500</strong>
-                    <button class="button grid-booking__button">
+                    <button data-toggle="modal" data-href="#booking-modal" class="button grid-booking__button">
                       Book Now
                     </button>
                   </div>
@@ -367,7 +367,7 @@
                   <span class="grid-booking__oldprice">$ 4,500</span>
                   <div class="grid-booking__price">
                     <strong class="grid-booking__newprice">$ 2,500</strong>
-                    <button class="button grid-booking__button">
+                    <button data-toggle="modal" data-href="#booking-modal" class="button grid-booking__button">
                       Book Now
                     </button>
                   </div>
@@ -423,7 +423,7 @@
                   <span class="grid-booking__oldprice">$ 6,500</span>
                   <div class="grid-booking__price">
                     <strong class="grid-booking__newprice">$ 3,500</strong>
-                    <button class="button grid-booking__button">
+                    <button data-toggle="modal" data-href="#booking-modal" class="button grid-booking__button">
                       Book Now
                     </button>
                   </div>
@@ -453,6 +453,7 @@
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
         <form action="send.php" method="POST" class="subscribe valid">
+        <label id="email-error" class="invalid-news" for="email">We need your email</label>
           <input
             name="email"
             type="email"
@@ -595,7 +596,7 @@
             <span class="activities-card__title"
               >The curious corner of chamarel</span
             >
-            <button class="activities-card__button">Book Now</button>
+            <button data-toggle="modal" data-href="#booking-modal" class="activities-card__button">Book Now</button>
           </div>
           <!-- /.activities-card -->
           <div class="activities-card" data-aos="fade-right" data-aos-delay="400">
@@ -607,7 +608,7 @@
             <span class="activities-card__title"
               >Gymkhana club golf course</span
             >
-            <button class="activities-card__button">Book Now</button>
+            <button data-toggle="modal" data-href="#booking-modal" class="activities-card__button">Book Now</button>
           </div>
           <!-- /.activities-card -->
           <div class="activities-card" data-aos="fade-right" data-aos-delay="600">
@@ -619,7 +620,7 @@
             <span class="activities-card__title"
               >Tamarind falls hiking trip - full day</span
             >
-            <button class="activities-card__button">Book Now</button>
+            <button data-toggle="modal" data-href="#booking-modal" class="activities-card__button">Book Now</button>
           </div>
           <!-- /.activities-card -->
           <div class="activities-card" data-aos="fade-right" data-aos-delay="800">
@@ -631,7 +632,7 @@
             <span class="activities-card__title"
               >The blue marine discovery quest</span
             >
-            <button class="activities-card__button">Book Now</button>
+            <button data-toggle="modal" data-href="#booking-modal" class="activities-card__button">Book Now</button>
           </div>
           <!-- /.activities-card -->
         </div>

@@ -88,7 +88,7 @@ $(document).ready(function(){
       messages: {
         name: {
           required: "Please, inter your name, bro!",
-          minlength: "Your name must be at least 3 letters long",
+          minlength: "Must be at least 3 letters long",
         },
         email: {
           required: "We need your email",
